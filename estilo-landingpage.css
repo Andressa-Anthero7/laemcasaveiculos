@@ -1,0 +1,533 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:5;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
+
+
+
+
+
+
+
+@media (max-width: 320.97px) {
+	body{
+		max-width:320px;
+
+		
+	}
+
+	#header{
+		position: absolute;
+		background:#000000;
+		top:-0.2em;
+	}
+
+	.container-fluid{
+		background: rgb(0,0,0);
+		background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		
+
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 2000px;
+		
+	}
+
+	
+
+	#img-logo{
+		
+		max-width: 25em;
+		max-height: 25em;
+		position: relative;
+		top: 1.4em;
+		z-index: -1;
+		
+	}
+
+	
+
+
+
+	#insta {
+	        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 0%, #fd5949 20%, #d6249f 60%, #285AEB 90%);
+	        -webkit-background-clip: text;
+	        /* Also define standard property for compatibility */
+	        background-clip: text;
+	        -webkit-text-fill-color: transparent;
+	        
+
+	    }
+
+
+    .fa-facebook-official{
+    	font-size: 2.7em;
+    	position: relative;
+    	left:0.5em;
+    	color:#3b5998;
+    	
+    	padding: 0.5em;
+    }
+
+    .fa-instagram{
+    	font-size: 3.2em;
+    	position: relative;
+    	left:1em;
+    	top:0.1em;
+    	
+
+    }
+
+	#logos-redes-sociais{
+	  	display: none;
+
+	}
+
+	.btn-redes-sociais{
+		
+	}
+
+	.btn-redes-sociais:hover{
+	  	transform: scale(1.5);
+	  	text-decoration: none;
+	  	
+	}
+
+	#conteudo{
+		display: none;
+		-webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+	}
+
+	#display-veiculo-lp{
+		background:#daa520;
+
+	}
+
+	.campo-info-veiculos{
+		position: relative;
+		left:-1em;
+		font-size: 1em;
+	}
+
+
+	#rodape-propriedade{
+		position: relative;
+		top:10em;
+		display: none;
+	}
+
+	#whatsapp-flutuante{
+		position: fixed;
+		top:5em;
+		z-index: 3;
+		font-size: 4em;
+		display: none;
+
+	}
+
+
+
+
+
+	
+}
+
+@media (min-width:  321.00px) and (max-width:360.98px) {
+	body{
+		max-width:360px;
+
+		
+	}
+
+	#header{
+		position: absolute;
+		background:#000000;
+		top:-0.2em;
+	}
+
+	.container-fluid{
+		background: rgb(0,0,0);
+		background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		
+
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 2000px;
+		
+	}
+
+	
+
+	#img-logo{
+		
+		max-width: 25em;
+		max-height: 25em;
+		position: relative;
+		top: 1.4em;
+		z-index: -1;
+		
+	}
+
+	
+
+
+
+	#insta {
+	        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 0%, #fd5949 20%, #d6249f 60%, #285AEB 90%);
+	        -webkit-background-clip: text;
+	        /* Also define standard property for compatibility */
+	        background-clip: text;
+	        -webkit-text-fill-color: transparent;
+	        
+
+	    }
+
+
+    .fa-facebook-official{
+    	font-size: 2.7em;
+    	position: relative;
+    	left:0.5em;
+    	color:#3b5998;
+    	
+    	padding: 0.5em;
+    }
+
+    .fa-instagram{
+    	font-size: 3.2em;
+    	position: relative;
+    	left:1em;
+    	top:0.1em;
+    	
+
+    }
+
+	#logos-redes-sociais{
+	  	display: none;
+
+	}
+
+	.btn-redes-sociais{
+		
+	}
+
+	.btn-redes-sociais:hover{
+	  	transform: scale(1.5);
+	  	text-decoration: none;
+	  	
+	}
+
+	#conteudo{
+		display: none;
+		-webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+	}
+
+	#display-veiculo-lp{
+		background:#daa520;
+	}
+
+	.campo-info-veiculos{
+		position: relative;
+		left:-1em;
+	}
+
+
+	#rodape-propriedade{
+		position: relative;
+		top:10em;
+		display: none;
+	}
+
+
+	#whatsapp-flutuante{
+		position: fixed;
+		top:7em;
+		z-index: 3;
+		font-size: 4em;
+		display: none;
+	}
+
+}
+
+@media (min-width: 361px) and (max-width:  375.98px){
+	body{
+		max-width:375px;
+
+		
+	}
+
+	#header{
+		position: absolute;
+		background:#000000;
+		top:-0.2em;
+	}
+
+	.container-fluid{
+		background: rgb(0,0,0);
+		background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		
+
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 2000px;
+		
+	}
+
+	
+
+	#img-logo{
+		
+		max-width: 25em;
+		max-height: 25em;
+		position: relative;
+		top: 1.4em;
+		z-index: -1;
+		
+	}
+
+	
+
+
+
+	#insta {
+	        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 0%, #fd5949 20%, #d6249f 60%, #285AEB 90%);
+	        -webkit-background-clip: text;
+	        /* Also define standard property for compatibility */
+	        background-clip: text;
+	        -webkit-text-fill-color: transparent;
+	        
+
+	    }
+
+
+    .fa-facebook-official{
+    	font-size: 2.7em;
+    	position: relative;
+    	left:0.5em;
+    	color:#3b5998;
+    	
+    	padding: 0.5em;
+    }
+
+    .fa-instagram{
+    	font-size: 3.2em;
+    	position: relative;
+    	left:1em;
+    	top:0.1em;
+    	
+
+    }
+
+	#logos-redes-sociais{
+	  	display: none;
+
+	}
+
+	.btn-redes-sociais{
+		
+	}
+
+	.btn-redes-sociais:hover{
+	  	transform: scale(1.5);
+	  	text-decoration: none;
+	  	
+	}
+
+	#conteudo{
+		display: none;
+		-webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+	}
+
+	#display-veiculo-lp{
+		background:#daa520;
+	}
+
+	.campo-info-veiculos{
+		position: relative;
+		left:-1em;
+	}
+
+
+	#rodape-propriedade{
+		position: relative;
+		top:10em;
+		display: none;
+	}
+
+	#whatsapp-flutuante{
+		position: fixed;
+		top:7em;
+		z-index: 3;
+		font-size: 4em;
+		display: none;
+	}
+
+}
+
+@media (min-width: 376px) and (max-width:  428.98px) {
+	body{
+		max-width:428px;
+
+		
+	}
+
+	#header{
+		position: absolute;
+		background:#000000;
+		top:-0.2em;
+	}
+
+	.container-fluid{
+		background: rgb(0,0,0);
+		background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		
+
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 2000px;
+		
+	}
+
+	
+
+	#img-logo{
+		
+		max-width: 25em;
+		max-height: 25em;
+		position: relative;
+		top: 1.4em;
+		z-index: -1;
+		
+	}
+
+	
+
+
+
+	#insta {
+	        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 0%, #fd5949 20%, #d6249f 60%, #285AEB 90%);
+	        -webkit-background-clip: text;
+	        /* Also define standard property for compatibility */
+	        background-clip: text;
+	        -webkit-text-fill-color: transparent;
+	        
+
+	    }
+
+
+    .fa-facebook-official{
+    	font-size: 2.7em;
+    	position: relative;
+    	left:0.5em;
+    	color:#3b5998;
+    	
+    	padding: 0.5em;
+    }
+
+    .fa-instagram{
+    	font-size: 3.2em;
+    	position: relative;
+    	left:1em;
+    	top:0.1em;
+    	
+
+    }
+
+	#logos-redes-sociais{
+	  	display: none;
+
+	}
+
+	.btn-redes-sociais{
+		
+	}
+
+	.btn-redes-sociais:hover{
+	  	transform: scale(1.5);
+	  	text-decoration: none;
+	  	
+	}
+
+	#conteudo{
+		display: none;
+		-webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+	}
+
+	#display-veiculo-lp{
+		background:#daa520;
+	}
+
+	.campo-info-veiculos{
+		position: relative;
+		left:-1em;
+	}
+
+
+	#rodape-propriedade{
+		position: relative;
+		top:10em;
+		display: none;
+	}
+
+	#whatsapp-flutuante{
+		position: fixed;
+		top:8em;
+		z-index: 3;
+		font-size: 4em;
+		display: none;
+	}
+
+	
+
+
+
+	
+}
+
+@media (min-width: 429.00px) and (max-width:  768.98px) {}
+
+@media (min-width: 769.00px) and (max-width: 1023.97px){}
+
+@media (min-width: 1024px){
+
+	body{
+		width: 100%;
+		background: #000000;
+	}
+
+	#img-logo{
+		max-width: 10em;
+	}
+}
