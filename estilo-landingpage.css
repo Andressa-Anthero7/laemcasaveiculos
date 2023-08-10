@@ -763,7 +763,7 @@
 
 }
 
-@media (min-width: 768.00px) and (max-width: 1023.97px){
+@media (min-width: 768.00px) and (max-width: 1024.97px){
 	body{
 		max-width:1023px;
 
@@ -787,7 +787,7 @@
 
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 2600px;
+		height: 3000px;
 		max-width: 100%;
 
 		
@@ -895,9 +895,32 @@
 		font-size: 4em;
 		display: none;
 	}
+
+	.form-control{
+		max-width: 80%;
+		position: relative;
+		left: 5em;
+		top:2em;
+	}
+
+	label{
+		position: relative;
+		left: 3.5em;
+		top:1.6em;
+	}
+
+	#btn-enviar{
+		padding: 0.3em;
+		font-size: 1.3em;
+	}
+
+
+
+
+
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1025px) and (max-width:1339.97px){
 
 	body{
 		max-width:100%;
@@ -910,6 +933,7 @@
 		position: absolute;
 		background:#000000;
 		top:-0.2em;
+
 	}
 
 	.container-fluid{
@@ -999,9 +1023,10 @@
 		-webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
 		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
 		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
-		font-size: 1.5em;
+		font-size: 1em;
 		border:1px solid white;
-		max-height: 1200px;
+		min-height: 1200px;
+		margin-top: 1em;
 
 	}
 
@@ -1022,9 +1047,9 @@
 
 	#display-veiculo-lp{
 		max-width:45%;
-		position: relative;
+		position: absolute;
 		left:50%;
-		top:-22em;
+		top:5em;
 		border-radius:5%;
 		webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
 		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
@@ -1040,7 +1065,7 @@
 	}
 
 	#texto-descricao{
-		font-size: 0.7em;
+		font-size: 0.8em;
 		
 	}
 
@@ -1052,7 +1077,7 @@
 		max-width:40%;
 		position: relative;
 		left:5%;
-		top:-43em;
+		top:0em;
 		background: white;
 		color:black;
 		padding: 1em;
@@ -1096,4 +1121,455 @@
 		font-size: 4em;
 		display: none;
 	}
+
+}
+
+@media (min-width:1340px) and (max-width:2559.97px){
+
+	body{
+		max-width:100%;
+
+
+		
+	}
+
+	#header{
+		position: absolute;
+		background:#000000;
+		top:-0.2em;
+	}
+
+	.container-fluid{
+		background: rgb(0,0,0);
+		background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		
+
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 1800px;
+		max-width: 100%;
+		margin-top: 1em;
+
+		
+	}
+
+	#logo{
+		position: relative;
+		left:12em;
+		
+	}
+
+	
+
+	#img-logo{
+		
+		max-width: 25em;
+		max-height: 25em;
+		position: relative;
+		top: 1.4em;
+		
+		z-index: -1;
+		
+	}
+
+	
+
+
+
+	#insta {
+	        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 0%, #fd5949 20%, #d6249f 60%, #285AEB 90%);
+	        -webkit-background-clip: text;
+	        /* Also define standard property for compatibility */
+	        background-clip: text;
+	        -webkit-text-fill-color: transparent;
+	        
+
+	    }
+
+
+   .fa-facebook-official{
+    	font-size: 2.6em;
+    	position: relative;
+    	left:6em;
+    	color:#3b5998;
+    	padding: 1em;
+    }
+
+    .fa-instagram{
+    	font-size: 3.2em;
+    	position: relative;
+    	left:6em;
+    	top:0.1em;
+    	
+
+    }
+
+	#logos-redes-sociais{
+	  	display: none;
+
+	}
+
+	.btn-redes-sociais{
+		
+	}
+
+	.btn-redes-sociais:hover{
+	  	transform: scale(1.5);
+	  	text-decoration: none;
+	  	
+	}
+
+	#conteudo{
+		display: none;
+		-webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		font-size: 1em;
+		border:1px solid white;
+		min-height: 1300px;
+
+
+	}
+
+	#titulo-landingpage{
+		font-size: 1.5em;
+	}
+
+	#carousel{
+		max-width:40%;
+		position: relative;
+		left:5%;
+		border-radius:5%;
+		webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		padding: 1em;
+	}
+
+	#display-veiculo-lp{
+		max-width:45%;
+		position: absolute;
+		left:50%;
+		top:5em;
+		border-radius:5%;
+		webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+	}
+
+	#descricao-veiculo{
+		min-height: 15em;
+		background: white;
+		color:black;
+		padding: 1em;
+		border-radius:5%;
+	}
+
+	#texto-descricao{
+		font-size: 1em;
+		
+	}
+
+
+
+
+
+	#area-formulario{
+		max-width:40%;
+		position: relative;
+		left:5%;
+		top:0em;
+		background: white;
+		color:black;
+		padding: 1em;
+		border-radius:5%;
+	}
+
+	.form-control{
+		position: relative;
+		top:2em;
+	}
+
+	label{
+		position: relative;
+		top:2em;
+	}
+
+
+
+
+
+
+
+
+
+
+	#display-veiculo-lp{
+		background:#daa520;
+	}
+
+	.campo-info-veiculos{
+		position: relative;
+		left:-1em;
+	}
+
+
+	#header-formulario{
+		font-size:1.3em;
+	}
+
+
+	#rodape-propriedade{
+		position: relative;
+		top:14em;
+		display: none;
+	}
+
+	#whatsapp-flutuante{
+		position: fixed;
+		top:4em;
+		z-index: 3;
+		font-size: 4em;
+		display: none;
+	}
+}
+
+
+
+
+
+@media(min-width:2559.97px){
+
+	body{
+		max-width:100%;
+		font-size: 2em;
+
+		
+	}
+
+	#header{
+		position: absolute;
+		background:#000000;
+		top:-0.2em;
+	}
+
+	.container-fluid{
+		background: rgb(0,0,0);
+		background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		background: linear-gradient(180deg, rgba(0,0,0,1) 5%, rgba(26,16,1,1) 12%, rgba(61,40,4,1) 16%, rgba(43,26,1,0.9248074229691877) 17%, rgba(101,73,11,1) 30%, rgba(218,167,32,1) 61%, rgba(218,167,32,1) 81%, rgba(0,0,0,1) 100%);
+		
+
+
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 2800px;
+		max-width: 100%;
+		margin-top: 1em;
+
+		
+	}
+
+	#logo{
+		position: relative;
+		left:12em;
+		
+	}
+
+	
+
+	#img-logo{
+		
+		max-width: 25em;
+		max-height: 25em;
+		position: relative;
+		top: 1.4em;
+		
+		z-index: -1;
+		
+	}
+
+	
+
+
+
+	#insta {
+	        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 0%, #fd5949 20%, #d6249f 60%, #285AEB 90%);
+	        -webkit-background-clip: text;
+	        /* Also define standard property for compatibility */
+	        background-clip: text;
+	        -webkit-text-fill-color: transparent;
+	        
+
+	    }
+
+
+   .fa-facebook-official{
+    	font-size: 2.6em;
+    	position: relative;
+    	left:6em;
+    	color:#3b5998;
+    	padding: 1em;
+    }
+
+    .fa-instagram{
+    	font-size: 3.2em;
+    	position: relative;
+    	left:6em;
+    	top:0.1em;
+    	
+
+    }
+
+	#logos-redes-sociais{
+	  	display: none;
+
+	}
+
+	.btn-redes-sociais{
+		
+	}
+
+	.btn-redes-sociais:hover{
+	  	transform: scale(1.5);
+	  	text-decoration: none;
+	  	
+	}
+
+	#conteudo{
+		display: none;
+		-webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		font-size: 1em;
+		border:1px solid white;
+		min-height: 2000px;
+
+
+	}
+
+	#titulo-landingpage{
+		font-size: 1.5em;
+	}
+
+	#carousel{
+		max-width:40%;
+		position: relative;
+		left:5%;
+		top:1em;
+		border-radius:5%;
+		webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		padding: 1em;
+	}
+
+	#display-veiculo-lp{
+		max-width:45%;
+		position: absolute;
+		left:50%;
+		top:4.5em;
+		border-radius:5%;
+		webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+	}
+
+	#descricao-veiculo{
+		min-height: 15em;
+		background: white;
+		color:black;
+		padding: 1em;
+		border-radius:5%;
+		margin-top: 3em;
+	}
+
+	#texto-descricao{
+		font-size: 1em;
+		
+	}
+
+
+
+
+
+	#area-formulario{
+		max-width:40%;
+		position: relative;
+		left:5%;
+		top:3em;
+		background: white;
+		color:black;
+		padding: 3em;
+		border-radius:5%;
+		
+	}
+
+
+
+
+
+
+
+
+
+
+	#display-veiculo-lp{
+		background:#daa520;
+	}
+
+	.campo-info-veiculos{
+		position: relative;
+		left:-1em;
+		padding: 3em;
+
+	}
+
+
+	#header-formulario{
+		font-size:1.3em;
+	}
+
+
+	#rodape-propriedade{
+		position: relative;
+		top:14em;
+		display: none;
+	}
+
+	#whatsapp-flutuante{
+		position: fixed;
+		top:4em;
+		z-index: 3;
+		font-size: 4em;
+		display: none;
+	}
+
+	.form-control, label{
+		max-width: 80%;
+		position: relative;
+		left:10%;
+		top:2.5em;
+		
+	}
+
+	label{
+		position: relative;
+		left:10%;
+		top:1.4em;
+	}
+
+	#btn-enviar{
+		min-width: 10em;
+		font-size: 1.5em;
+		position: relative;
+		top:2em;
+	}
+
+
+
+
 }
