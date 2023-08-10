@@ -1002,6 +1002,7 @@
 		font-size: 1.5em;
 		border:1px solid white;
 		max-height: 1200px;
+
 	}
 
 	#titulo-landingpage{
@@ -1024,7 +1025,10 @@
 		position: relative;
 		left:50%;
 		top:-22em;
-		border-radius:10%;
+		border-radius:5%;
+		webkit-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		-moz-box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
+		box-shadow: -1px -1px 5px 4px rgba(218,165,32,1);
 	}
 
 	#descricao-veiculo{

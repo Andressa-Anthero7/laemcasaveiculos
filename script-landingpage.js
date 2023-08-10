@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	  $('#logos-redes-sociais').show();
 
-	  $('#conteudo').show().css({'position':'relative','top':'9em'});
+	  $('#conteudo').show().css({'position':'relative','top':'6em'});
 
 	  $('.loader-container').hide();
 
