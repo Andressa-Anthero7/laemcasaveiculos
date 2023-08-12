@@ -17,6 +17,14 @@
 }
 
 
+.whatsapp-icone{
+	background-color: white;
+	border-radius: 50%;
+	padding: 6px;
+
+}
+
+
 
 
 
@@ -45,7 +53,7 @@
 
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 2000px;
+		height: 2500px;
 		
 	}
 
@@ -173,7 +181,7 @@
 
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 2000px;
+		height: 2500px;
 		
 	}
 
@@ -294,7 +302,7 @@
 
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 2000px;
+		height: 2500px;
 		
 	}
 
@@ -414,7 +422,7 @@
 
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 2000px;
+		height: 2500px;
 		
 	}
 
@@ -1548,25 +1556,26 @@
 		display: none;
 	}
 
-	.form-control, label{
+	.form-control{
 		max-width: 80%;
 		position: relative;
 		left:10%;
 		top:2.5em;
+		height: 4em;
 		
 	}
 
 	label{
 		position: relative;
 		left:10%;
-		top:1.4em;
+		top:1em;
 	}
 
 	#btn-enviar{
 		min-width: 10em;
 		font-size: 1.5em;
 		position: relative;
-		top:2em;
+		top:1em;
 	}
 
 
