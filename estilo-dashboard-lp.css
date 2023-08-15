@@ -1,0 +1,108 @@
+/*Media Queries Mobile Tamanho P*/
+@media (max-width: 1024.99px) {
+          *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            background: #e6e6e6;
+
+
+        }
+
+        .etiqueta{
+            position: relative;
+            top: 1.2em;
+            z-index: -1;
+        }
+
+        #info-complementares{
+            min-width: 100%;
+        }
+}
+
+@media (min-width: 1025px)  {
+          *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            background: #e6e6e6;
+
+
+
+        }
+
+        .etiqueta{
+            position: relative;
+            top: 1.2em;
+            z-index: -1;
+        }
+
+        #info-complementares{
+            min-width: 120%;
+            min-height: 30em;
+            
+        }
+
+        #div-info-complementares{
+            position: relative;
+           
+        }
+
+        .campo-desktop{
+            max-width: 40%;
+            margin-left: 5%;
+
+        }
+
+       #itens-carros{
+           position: absolute;
+           top:19em;
+           left: 55%;
+           
+       }
+
+       #display-itens-opcionais{
+             position: relative;
+            top:-55em;
+            left: -40em;
+           
+       }
+
+       #formulario{
+            min-width: 1200px;
+       }
+
+       #salvar{
+            position: relative;
+            left: 10em;
+            top: 5em;
+       }
+
+
+
+
+
+
+       footer{
+            position: relative;
+            top:2400px;
+            left:-550px;
+       }
+
+
+
+
+}
+
+
+
+
+

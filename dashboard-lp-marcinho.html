@@ -19,22 +19,15 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
 
 
-     <link rel="stylesheet" type="text/css" href="estilo-dashboard-lp-1.css">
+     <link rel="stylesheet" type="text/css" href="estilo-dashboard-lp.css">
 
-     <!--<link rel="stylesheet" type="text/css" href="estilo-area-anunciante.css">-->
-
-
-
-
-
-
-
+     <link rel="stylesheet" type="text/css" href="estilo-area-anunciante.css">
 
 </head>
 <body>
 
 <div class=" container-fluid w-100" id="container-principal">
-    <!-- Passa o usuário logado no sistema -->
+    
 
    <header id="header" class="  row ">
         
@@ -42,8 +35,8 @@
 
         <!-- USER LOGADO -->
         <span id="user" class="col-8" >
-            <span class="bg-warning ml-1" id="label-user">User</span>
-
+            <span class="bg-warning ml-1 p-1 rounded" id="label-user">User</span>
+            <!-- Passa o usuário logado no sistema -->
             <span class="px-1" id="user-logado">Lá em Casa Veículos</span>
 
         </span>
@@ -68,7 +61,7 @@
 
      <!-- Field Select do Tipo do Anuncio -->
     <div  id="escolha-tipo-field" class="">
-        <label id="escolha-tipo-veiculo" class=" bg-warning p-1 rounded">Escolha tipo veículo *</label>
+        <label id="escolha-tipo-veiculo" class=" bg-warning p-2  etiqueta rounded">Escolha tipo veículo *</label>
 
         <select name="tipo-veiculo" id="tipo-veiculo" class="form-control " >
             <option value="escolha">Escolha Tipo</option>
@@ -85,17 +78,9 @@
     </div>
 
 
-   
-
-
-
-
-    
-
-
 
     <!-- Formulário Carros -->
-    <form enctype="multipart/form-data" method="POST" id="formulario" class=" border border-dark rounded p-2 form  " >
+    <form enctype="multipart/form-data" method="POST" id="formulario" class=" rounded p-2 form  " >
 
         {% csrf_token %}
         <div class=" p-0 m-0">
@@ -105,7 +90,7 @@
 
 
         <!-- CAMPO MARCA -->
-        <div class=" " id="campo-marca" >
+        <div class="campo-desktop" id="campo-marca" >
             <label for="Marca" class="bg-warning border rounded p-2 etiqueta">Marca *</label>
             <select class="form-control" id="Marca" name="marca">
                 <option>Marca</option>
@@ -117,8 +102,8 @@
 
          <!-- CAMPO MODELO -->
 
-        <div class=" " id="campo-modelo">
-             <label class="bg-warning px-2 pb-3 border rounded  etiqueta">Modelo *</label>
+        <div class="campo-desktop" id="campo-modelo">
+             <label class="bg-warning p-2 border rounded  etiqueta">Modelo *</label>
             <select class="form-control" id="Modelo" name="modelo">
                 <option>Modelo</option>
             </select>
@@ -129,8 +114,8 @@
 
 
          <!-- CAMPO ANO -->
-        <div class="" id="campo-ano">
-             <label class="bg-warning px-2 pb-3 border rounded  etiqueta">Ano *</label>
+        <div class="campo-desktop" id="campo-ano">
+             <label class="bg-warning p-2 border rounded  etiqueta">Ano *</label>
             <select class="form-control" id="Ano" name="ano">
                 <option>Ano</option>
             </select>
@@ -140,8 +125,8 @@
 
 
          <!-- CAMPO COMBUSTIVEL -->
-        <div class="" id="campo-combustivel">
-            <label  class="bg-warning px-2 pb-3 border rounded  etiqueta">Combustível</label>
+        <div class="campo-desktop" id="campo-combustivel">
+            <label  class="bg-warning p-2 border rounded  etiqueta">Combustível</label>
             <select class="form-control " id="Combustivel" name="combustivel">
                  <option>Combustível</option>
                  <option value="gasolina">GASOLINA</option>
@@ -159,8 +144,8 @@
 
 
              <!-- CAMPO COR -->
-        <div class="" id="campo-cor">
-            <label  class="bg-warning px-2 pb-3 border rounded  etiqueta">Cor</label>
+        <div class="campo-desktop" id="campo-cor">
+            <label  class="bg-warning p-2 border rounded  etiqueta">Cor</label>
             <select class="form-control " id="Cor" name="cor">
                 <option>Selecionar Cor</option>
                  {% for cores in cores %}
@@ -175,8 +160,8 @@
 
 
          <!-- CAMPO PORTAS -->
-         <div id="campo-portas" class="">
-             <label  class="bg-warning px-2 pb-3 border rounded  etiqueta">Portas</label>
+         <div id="campo-portas" class="campo-desktop">
+             <label  class="bg-warning p-2 border rounded  etiqueta">Portas</label>
              <select class="form-control " id="portas" name="portas">
                  <option>Portas</option>
                  <option value="2 Portas">2 PORTAS</option>
@@ -188,8 +173,8 @@
          </div>
 
              <!-- CAMPO CAMBIO -->
-         <div id="campo-cambio" class="">
-             <label  class="bg-warning px-2 pb-3 border rounded  etiqueta">Câmbio</label>
+         <div id="campo-cambio" class="campo-desktop">
+             <label  class="bg-warning p-2 border rounded  etiqueta">Câmbio</label>
              <select class="form-control" id="cambio" name="cambio">
                  <option>CÂMBIO</option>
                  <option value="MANUAL">MANUAL</option>
@@ -202,8 +187,8 @@
 
 
           <!-- CAMPO IPVA -->
-         <div id="campo-ipva" class="">
-             <label  class="bg-warning px-2 pb-3 border rounded  etiqueta">IPVA</label>
+         <div id="campo-ipva" class="campo-desktop">
+             <label  class="bg-warning p-2 border rounded  etiqueta">IPVA</label>
              <select class="form-control " id="ipva" name="ipva">
                  <option value="ipva pago">SIM</option>
                  <option value="ipva nao pago">NÃO</option>
@@ -213,9 +198,9 @@
 
 
              <!-- CAMPO PLACA -->
-         <div id='campo-placa' class="">
-            <label  class="bg-warning px-2 pb-3 border rounded  etiqueta">Placa</label>
-            <input type="text" maxlength="7" name="placa" id="placa" class="form-control col-2" placeholder="ABC - 1B34"  onkeyup="validaPlaca();" >
+         <div id='campo-placa' class="campo-desktop">
+            <label  class="bg-warning p-2 border rounded  etiqueta">Placa</label>
+            <input type="text" maxlength="7" name="placa" id="placa" class="form-control " placeholder="ABC - 1B34"  onkeyup="validaPlaca();" >
             <span id="validacao"></span>
             <span class="" id="validacao-2"></span>
 
@@ -229,10 +214,10 @@
 
 
          <!-- CAMPO VALOR -->
-    <div id="campo-valor">
-        <label  for="valor" class="bg-warning px-2 pb-3 border rounded  etiqueta" style="font-weight:bold;" >VALOR *</label>
+    <div id="campo-valor" class="campo-desktop">
+        <label  for="valor" class="bg-warning p-2 border rounded  etiqueta" style="font-weight:bold;" >VALOR *</label>
 
-        <div><input type="text"  name="valor" id="valor" value="" class="form-control " size="12"  onKeyUp="mascaraMoeda(this, event)">
+        <div><input type="text"  name="valor" id="valor" value="" class="form-control "   onKeyUp="mascaraMoeda(this, event)">
             <div id="validacao-input-valor"></div>
 
     </div>
@@ -267,40 +252,6 @@
 
 
         });
-
-
-
-
-
-
-
-
-
-        String.prototype.reverse = function(){
-              return this.split('').reverse().join('');
-            };
-
-            function mascaraMoeda(campo,evento){
-              var tecla = (!evento) ? window.event.keyCode : evento.which;
-              var valor  =  campo.value.replace(/[^\d]+/gi,'').reverse();
-
-              var resultado  = "";
-              var mascara = "##.###.###,##".reverse();
-              for (var x=0, y=0; x<mascara.length && y<valor.length;) {
-                if (mascara.charAt(x) != '#') {
-                  resultado += mascara.charAt(x);
-                  x++;
-                } else {
-                  resultado += valor.charAt(y);
-                  y++;
-                  x++;
-                }
-              }
-              campo.value = 'R$ '+resultado.reverse();
-        }
-
-
-
 
 
     </script>
@@ -971,8 +922,8 @@
 
                     <!-- Caixa de texto informações completamentares -->
                     <div class="px-1 mt-1" id="div-info-complementares">
-                        <label for="info-complementares" class="bg-warning px-2 pb-3 border rounded  etiqueta">Informações Complementares</label>
-                        <textarea id="info-complementares" class="" ></textarea>
+                        <label for="info-complementares" class="bg-warning p-2 border rounded  etiqueta">Informações Complementares</label>
+                        <textarea id="info-complementares"  rows="5" wrap="hard"  class="border border-dark rounded" ></textarea>
                     </div>
 
 
@@ -981,17 +932,23 @@
                 <!-- BTN SALVAR -->
 
 
-                    <button type="submit"  class="btn btn-warning " id="salvar" >Próximo Passo - Adicionar Fotos</button>
+                    <button type="submit"  class="btn btn-warning m-5" id="salvar" >Próximo Passo - Adicionar Fotos</button>
 
 
 
          </form>
 
-
+        
 
 </div>
 
-<div id="div-footer"><footer class="bg-warning text-center">Nix Autos - Classificados</footer>    </div>
+<!-- RODAPÉ -->
+        <footer class="text-center " >
+            <i class="fa fa-copyright" aria-hidden="true">Copyright</i>
+            <div>Antherus - Desenvolvimento Web</div>
+            <small><i class="fa fa-whatsapp mr-1" aria-hidden="true"></i><span>(16) 99337-9492</span></small>
+        </footer>
+
 
 
 
