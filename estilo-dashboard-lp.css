@@ -77,6 +77,13 @@
 
         }
 
+        #scroll-itens{
+            overflow-y: scroll;
+            background: white;
+            max-height: 250px;
+            padding: 0.5em;
+        }
+
        #display-itens-opcionais{
              position: relative;
             top:0em;

@@ -25,6 +25,10 @@ $(document).ready(function() {
             $('#placa').attr('disabled', true);
             $('#valor').attr('disabled', true);
 
+             if(lista.length == 0){
+                $('#lista').html('Não há item opcional cadastrado!!');
+            }
+
 
 
 

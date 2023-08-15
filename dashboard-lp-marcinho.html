@@ -267,7 +267,7 @@
 
         <div id="itens-opcionais">
             <div>
-                <label class="bg-warning border rounded col-12" id="header-itens-opcionais">Itens Opcionais</label>
+                <label class="bg-warning p-2 border rounded  etiqueta" id="header-itens-opcionais">Itens Opcionais</label>
             </div>
             <!--Scoll -->
                 <div id="scroll-itens-opcionais" class="rounded">
@@ -855,6 +855,10 @@
                         var lista = new Array();
                         i = 0
 
+                        if(lista.length == 0){
+                            $('#lista').html('Não há item opcional cadastrado!!');
+                        }
+
                         //evento clicar no
                          $(document).on('click', '#itens-opcionais input', function(){
                                 checado = $(this).prop('checked');
@@ -875,7 +879,7 @@
                                 }
 
                                 if(lista.length == 0){
-                                    $('#display-itens-opcionais').hide();
+                                    $('#lista').html('Não há item opcional cadastrado!!');
                                 }
 
                                 if(lista.length == 1){
@@ -908,10 +912,10 @@
                     <!-- Display do itens opcionais -->
                     <span id="display-itens-opcionais" class="p-1">
                         <div>
-                            <label class="bg-warning border rounded col-12">Lista Opcionais</label>
+                            <label class="bg-warning p-2 border rounded  etiqueta">Lista Opcionais</label>
                         </div>
 
-                        <div id="scroll-itens">
+                        <div id="scroll-itens" class="bg-white rounded">
                             <span id="lista"  class=""></span>
                         </div>
 
