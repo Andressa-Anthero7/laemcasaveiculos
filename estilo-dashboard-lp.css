@@ -64,15 +64,23 @@
 
        #itens-carros{
            position: absolute;
-           top:19em;
+           top:18em;
            left: 55%;
            
        }
 
+       #scroll-itens-opcionais{
+            overflow-y: scroll;
+            background: white;
+            max-height: 250px;
+            padding: 0.5em;
+
+        }
+
        #display-itens-opcionais{
              position: relative;
-            top:-55em;
-            left: -40em;
+            top:0em;
+            left: 0em;
            
        }
 
